@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+*{margin: 0px;
+padding: 0px; 
+font-family: 'Urbanist', sans-serif;}
+
+
+header{background-color: black;
+display: flex;
+justify-content:space-around;
+padding-top: 20px;}
+nav a{text-transform: uppercase;
+transition: 0.5s;}
+nav a:hover{color: #FEAD13;}
+a{ color:white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 20px;
+margin-left: 30px;
+}
+.icons{color: white;}
+
+/*containerhero¨*/
+.containerhero{
+    background-image: url('img/fondohero.jpg'); 
+    height: 90vh; 
+    background-size: cover;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+.huellas{display: flex; text-align: left; justify-content:space-between;}
+.containerhero h3{color: black;  font-size: 20px; text-transform: uppercase;}
+.containerhero h1{font-size:60px;   color: black; text-transform: uppercase;}
+.containerhero p{font-size: 20px; padding-top: 40px; padding-bottom: 20px; color: black;}
+.containerhero .herobtn{font-size: 20px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: 0.5s;}
+.herobtn:hover{color: white;}
+    
+
+/*containerabout*/
+.containerabout{ background-image: url('img/fondoabout1.jpg'); 
+height: 90vh; 
+background-size: cover;}
+.containerabout .about{display: flex; 
+justify-content: space-between;
+margin: 0px 50px 0px 50px;
+padding:100px 0px 100px 0px; }
+.aboutinf{margin-left: 350px; 
+margin-bottom: 20px;}
+.aboutimg{margin-right: 20px;
+margin-left: 20px;}
+.aboutinf h2{color: #FEAD13; text-transform:uppercase; letter-spacing: 3px;}
+.aboutinf h1{font-size: 35px; text-transform: uppercase; letter-spacing: 3px; 
+padding-top: 20px;
+padding-bottom: 20px;}
+.aboutinf p{color: gray;}
+.aboutquality{display: flex; justify-content: space-around; 
+margin-right: 200px; margin-top: 30px;}
+.aboutquality h3{font-size: 16px;}
+
+
+
+
+/*containerimages*/
+.containerimages{background-color: #e9e9eb;}
+.containerimages .images{display: flex; justify-content:space-around;}
+
+/*containerfacts*/
+.containerfacts{background-image: url('img/fondofacts.jpg'); 
+height: 90vh; 
+background-size: cover;}
+.containerfacts .factstittle{display: flex; justify-content: right;
+padding-top: 150px;
+margin-right: 100px;
+font-size: 25px;
+color: white;
+letter-spacing: 3px;
+text-transform: uppercase;}
+.containerfacts .facts{display: flex; justify-content:right;
+padding-top: 50px;
+margin-right: 50px;
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: 3px;}
+.facts .factsone{margin-right: 20px;
+margin-left: 10px;}
+
+/*containeroffer*/
+.containeroffer{background-color: white;}
+.containeroffer .offer{text-align: center; 
+padding-top: 100px;
+text-transform: uppercase;
+font-size: 10px; 
+letter-spacing: 3px;}
+.containeroffer .offerone{text-align: center;
+padding-top: 10px;
+padding-bottom: 50px;
+font-size: 30px;
+color: #FEAD13;
+letter-spacing: 3px;
+text-transform: uppercase;}
+.containeroffer .offertwo{display: flex; justify-content: space-around; text-align: center;
+font-size: 15px;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 50px;}
+.offertwo .offercard h3{margin-top: 20px; text-transform: uppercase; font-size: 15px; letter-spacing: 2px;}
+.offertwo .offercard p{color:gray; margin-top: 10px;}
+
+
+/*containerlove*/
+.containerlove{background-image: url('img/fondolove.jpg'); 
+background-position: center;
+height: 60vh; 
+padding-top: 70px;
+background-size: cover;}
+.containerlove .love{ margin-left: 100px;}
+
+
+/*containtercontact*/
+.containercontact{background-image: url('img/fondocontact.jpg');
+height: 100vh; 
+background-position: center;
+background-size: cover;
+padding-left: 100px;
+padding-right: 100px;}
+.contacttittle{text-align: center;
+padding-top: 100px;}
+.tittleone h1{text-transform: uppercase;
+letter-spacing: 3px; font-size: 20px;}
+.tittletwo h1{text-transform: uppercase; letter-spacing: 3px; font-size: 50px;}
+.contactinf{display: flex;
+justify-content: center;
+margin-top: 100px;}
+.infcard{display: flex; justify-content: center; margin-right: 300px; margin-bottom: 30px;}
+.contenido h3{font-size: 20px; text-transform: uppercase;}
+form{ 
+    border-radius: 20px;
+    text-align: center;
+    width: 340px; }
+    .input-group {display: flex; 
+    flex-direction: column;}
+input , textarea{background-color: white; filter: opacity(50%);
+    padding: 5px 5px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;}
+.btnform{cursor: pointer;}
+
+/*FOOTER*/
+
+.footer{background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 500px;
+    display: flex;
+    color: #FEAD13;}
